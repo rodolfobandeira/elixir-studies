@@ -1,0 +1,15 @@
+IO.puts {:ok, "hello"}
+# {:ok, "hello"}
+
+IO.puts {:ok, "hello"}
+# 2
+
+tuple = {:ok, "hello"}
+IO.puts tuple
+# {:ok, "hello"}
+
+IO.puts elem(tuple, 1)
+# "hello"
+
+IO.puts tuple_size(tuple)
+# 2
