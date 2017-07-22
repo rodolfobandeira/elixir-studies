@@ -21,3 +21,11 @@ IO.puts String.length("hellö")
 
 IO.puts String.upcase("hellö")
 # "HELLÖ"
+
+
+# Example of concatenation using <>
+my_string = "Rodolfo "
+my_string2 = "Bandeira"
+
+IO.puts my_string <> my_string2
+
